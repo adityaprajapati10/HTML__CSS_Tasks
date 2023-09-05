@@ -18,6 +18,12 @@ Task 4: Create a Basic HTML Sign-In Page
 
 Task 5: Create a Basic HTML Registration Form Page
 
+Task 6: Apply some CSS in Task 1 
+ 
+Task 7: Create Vertical Navigation Bar and Horizontal Navigation Bar
+
+Task 8: 
+
 ---
 ## Getting Started
 To complete these tasks, you'll need a code editor like Visual Studio Code, and a web browser for testing your web pages. Simply clone this repository, and you're ready to start.
