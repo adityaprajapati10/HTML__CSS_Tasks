@@ -8,7 +8,7 @@ This repository is designed to guide beginners through basic tasks in HTML and C
 Below are some simple tasks to get started with HTML and CSS:
 
 
-Task 1: Create a Table with Headings for First Name, Last Name, and Age in HTML
+##Task 1: Create a Table with Headings for First Name, Last Name, and Age in HTML
 
 Task 2: Create a Nested List in HTML
 
