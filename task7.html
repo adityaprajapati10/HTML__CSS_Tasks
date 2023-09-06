@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vertical Navigation Bar</title>
+    <style>
+        
+        .vertical-nav {
+            width: 200px; 
+            background-color: skyblue;
+            padding: 20px 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            overflow-x: hidden;
+            color: blue;
+            height: 250px;
+        }
+
+        .vertical-nav a {
+            padding: 15px;
+            text-align: center;
+            text-decoration: none;
+            color: blue;
+            display: block;
+        }
+
+        .vertical-nav a:hover {
+            background-color: orange;
+        }
+
+        .horizontal-nav {
+            background-color: rgb(160, 151, 151);
+            overflow: hidden;
+            padding-left: 250px;
+            width: 400px;
+        }
+
+        .horizontal-nav a {
+            float: left;
+            display: block;
+            color: blue ;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            border-right: 1px solid #555;
+        }
+
+        .horizontal-nav a:hover {
+            background-color: rgb(80, 72, 72);
+        }
+    </style>
+</head>
+<body>
+    <div class="vertical-nav">
+        <a href="#">Home</a>
+        <a href="#">Java</a>
+        <a href="#">HTML</a>
+        <a href="#">CSS</a>
+        <a href="#">Bootstrap</a>
+    </div>
+    <div class="horizontal-nav">
+        <a href="#">Home</a>
+        <a href="#">Java</a>
+        <a href="#">HTML</a>
+        <a href="#">CSS</a>
+        <a href="#">Bootstrap</a>
+    </div>
+</body>
+</html>
