@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-12</title>
+    <style>
+      * {
+    background-color: rgb(190, 41, 66);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    width: 500px;
+    height: auto;
+    background-color: rgb(105, 10, 10);
+    padding: 20px;
+    margin: 150px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, tr, td {
+    margin: 20px 0px;
+    background-color: rgb(105, 10, 10);
+}
+
+td.name {
+    width: 30%;
+    text-align: right;
+    padding-right: 10px;
+}
+
+td input.inputwithoutradio, textarea.inputwithoutradio, select.inputwithoutradio {
+    width: 100%;
+    padding: 5px;
+    background-color: white;
+}
+
+td.radio {
+    width: 70%;
+    background-color: white;
+}
+
+.radio input[type="radio"] {
+    margin-right: 10px;
+}
+
+.register {
+    width: 100%;
+    text-align: center;
+    background-color: white;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.register:hover {
+    background-color: rgb(36, 32, 32);
+}
+
+    </style>
+</head>
+<body>
+    <div class="page">
+    <table >
+        <tr>
+            <td class="name">Name:</td>
+            <td><input class="inputwithoutradio" placeholder="Your Name" type="text"></td>
+        </tr>
+        <tr>
+            <td class="name" >Email:</td>
+            <td><input class="inputwithoutradio" placeholder="Your Email" type="text"></td>
+        </tr>
+        <tr>
+            <td class="name">Password:</td>
+            <td><input  class="inputwithoutradio"  type="text"></td>
+        </tr>
+        
+        <tr>
+            <td class="name">Phone Number:</td>
+            <td><input class="inputwithoutradio" type="text"></td></td>
+        </tr>
+
+        <tr>
+            <td class="name">Gender:</td>
+            <td>
+                <label for="gender">Male:</label>
+                <input class="radio" type="radio" name="gender">
+                <label for="gender">Female:</label>
+                <input class="radio" type="radio" name="gender">
+                <label for="gender">Other:</label>
+                <input class="radio" type="radio" name="gender">
+            </td>
+        </tr>
+        
+        <tr>
+            <td class="name">Language</td>
+            <td>
+                <select name="name">
+                <option value="select Language">Select Language</option>
+                <option value="male">Hindi</option>
+                <option value="Female">English</option>
+            </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="name">Zip Code:</td>
+            <td><input class="inputwithoutradio" type="text"></td></td>
+        </tr>
+
+        <tr>
+            <td class="name">Address:</td>
+            <td>
+                <textarea name="address" class="inputwithoutradio" placeholder="Write about yourself......" type="text" cols="10" rows="3"></textarea>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <div class="register">
+        <button >Register</button>
+    </div>
+</div>
+</body>
+</body>
+</html>
